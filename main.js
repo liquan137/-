@@ -19,6 +19,7 @@ Vue.use(new VueSocketio({                                 
     debug: true,
     connection: 'ws://127.0.0.1:5000',
   }))
+
 const app = new Vue({
     ...App
 })

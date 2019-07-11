@@ -49,19 +49,14 @@ export default {
 			pwd:'',
 		}
 	},
-	sockets:{
-		connect: function(){
-		  console.log('socket connected')
-		},
-		message: function(val){
-		  console.log('this method was fired by the socket server. eg: io.emit("customEmit", data)')
-		}
+	created(){
+		
 	},
 	onLoad() {
 		this.$socket.emit('message', '123456')
-		this.$socket.on('message',()=>{
+		this.sockets.subscribe('message', (data) => {
 			console.log(data)
-		})
+		});
 	},
 	methods: {
 		onKeyUser(e){
@@ -90,14 +85,6 @@ export default {
 			let rsaPassWord = encryptor.encrypt(that.pwd) // 对需要加密的数据进行加密
 			// console.log(rsaPassWord)
 		}
-	},
-	sockets:{
-		 CONNECT(){
-			 this.$socket.emit('emit_method', '123456')
-		 },
-		 MESSAGE(data){
-			 console.log(data)
-		 }
 	}
 }
 </script>
