@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7e13e5f8-e66e-49d4-948e-7488a9affa45" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/vue-websocket/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-websocket/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-websocket/dist/vue-websocket.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-websocket/dist/vue-websocket.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-websocket/node_modules/after/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-websocket/node_modules/after/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-websocket/node_modules/after/LICENCE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-websocket/node_modules/after/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-websocket/node_modules/after/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-websocket/node_modules/after/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-websocket/node_modules/after/test/after-test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-websocket/node_modules/arraybuffer.slice/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-websocket/node_modules/arraybuffer.slice/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-websocket/node_modules/arraybuffer.slice/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-websocket/node_modules/arraybuffer.slice/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-websocket/node_modules/arraybuffer.slice/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-websocket/node_modules/arraybuffer.slice/test/slice-buffer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-websocket/node_modules/blob/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-websocket/node_modules/blob/.zuul.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-websocket/node_modules/blob/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-websocket/node_modules/blob/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-websocket/node_modules/blob/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-websocket/node_modules/blob/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-websocket/node_modules/blob/test/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-websocket/node_modules/component-emitter/History.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-websocket/node_modules/component-emitter/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-websocket/node_modules/component-emitter/Readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-websocket/node_modules/component-emitter/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-websocket/node_modules/component-emitter/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-websocket/node_modules/debug/.jshintrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-websocket/node_modules/debug/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-websocket/node_modules/debug/History.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-websocket/node_modules/debug/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-websocket/node_modules/debug/Readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-websocket/node_modules/debug/bower.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-websocket/node_modules/debug/browser.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-websocket/node_modules/debug/component.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-websocket/node_modules/debug/debug.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-websocket/node_modules/debug/node.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-websocket/node_modules/debug/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-websocket/node_modules/engine.io-client/History.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-websocket/node_modules/engine.io-client/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-websocket/node_modules/engine.io-client/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-websocket/node_modules/engine.io-client/engine.io.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-websocket/node_modules/engine.io-client/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-websocket/node_modules/engine.io-client/lib/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-websocket/node_modules/engine.io-client/lib/socket.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-websocket/node_modules/engine.io-client/lib/transport.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-websocket/node_modules/engine.io-client/lib/transports/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-websocket/node_modules/engine.io-client/lib/transports/polling-jsonp.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-websocket/node_modules/engine.io-client/lib/transports/polling-xhr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-websocket/node_modules/engine.io-client/lib/transports/polling.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-websocket/node_modules/engine.io-client/lib/transports/websocket.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-websocket/node_modules/engine.io-client/lib/xmlhttprequest.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-websocket/node_modules/engine.io-client/node_modules/component-emitter/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-websocket/node_modules/engine.io-client/node_modules/component-emitter/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-websocket/node_modules/engine.io-client/node_modules/component-emitter/History.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-websocket/node_modules/engine.io-client/node_modules/component-emitter/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-websocket/node_modules/engine.io-client/node_modules/component-emitter/Readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-websocket/node_modules/engine.io-client/node_modules/component-emitter/bower.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-websocket/node_modules/engine.io-client/node_modules/component-emitter/component.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-websocket/node_modules/engine.io-client/node_modules/component-emitter/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-websocket/node_modules/engine.io-client/node_modules/component-emitter/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-websocket/node_modules/engine.io-client/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-websocket/node_modules/engine.io-parser/History.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-websocket/node_modules/engine.io-parser/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-websocket/node_modules/engine.io-parser/Readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-websocket/node_modules/engine.io-parser/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-websocket/node_modules/engine.io-parser/lib/browser.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-websocket/node_modules/engine.io-parser/lib/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-websocket/node_modules/engine.io-parser/lib/keys.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-websocket/node_modules/engine.io-parser/node_modules/has-binary/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-websocket/node_modules/engine.io-parser/node_modules/has-binary/History.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-websocket/node_modules/engine.io-parser/node_modules/has-binary/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-websocket/node_modules/engine.io-parser/node_modules/has-binary/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-websocket/node_modules/engine.io-parser/node_modules/has-binary/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-websocket/node_modules/engine.io-parser/node_modules/has-binary/fixtures/big.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-websocket/node_modules/engine.io-parser/node_modules/has-binary/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-websocket/node_modules/engine.io-parser/node_modules/has-binary/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-websocket/node_modules/engine.io-parser/node_modules/has-binary/test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-websocket/node_modules/engine.io-parser/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-websocket/node_modules/isarray/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-websocket/node_modules/isarray/build/build.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-websocket/node_modules/isarray/component.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-websocket/node_modules/isarray/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-websocket/node_modules/isarray/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-websocket/node_modules/ms/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-websocket/node_modules/ms/History.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-websocket/node_modules/ms/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-websocket/node_modules/ms/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-websocket/node_modules/ms/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-websocket/node_modules/ms/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-websocket/node_modules/parseqs/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-websocket/node_modules/parseqs/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-websocket/node_modules/parseqs/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-websocket/node_modules/parseqs/test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-websocket/node_modules/parseuri/History.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-websocket/node_modules/parseuri/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-websocket/node_modules/parseuri/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-websocket/node_modules/parseuri/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-websocket/node_modules/parseuri/test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-websocket/node_modules/socket.io-client/History.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-websocket/node_modules/socket.io-client/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-websocket/node_modules/socket.io-client/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-websocket/node_modules/socket.io-client/lib/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-websocket/node_modules/socket.io-client/lib/manager.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-websocket/node_modules/socket.io-client/lib/on.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-websocket/node_modules/socket.io-client/lib/socket.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-websocket/node_modules/socket.io-client/lib/url.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-websocket/node_modules/socket.io-client/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-websocket/node_modules/socket.io-client/socket.io.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-websocket/node_modules/socket.io-parser/History.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-websocket/node_modules/socket.io-parser/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-websocket/node_modules/socket.io-parser/Readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-websocket/node_modules/socket.io-parser/binary.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-websocket/node_modules/socket.io-parser/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-websocket/node_modules/socket.io-parser/is-buffer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-websocket/node_modules/socket.io-parser/node_modules/component-emitter/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-websocket/node_modules/socket.io-parser/node_modules/component-emitter/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-websocket/node_modules/socket.io-parser/node_modules/component-emitter/History.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-websocket/node_modules/socket.io-parser/node_modules/component-emitter/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-websocket/node_modules/socket.io-parser/node_modules/component-emitter/Readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-websocket/node_modules/socket.io-parser/node_modules/component-emitter/bower.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-websocket/node_modules/socket.io-parser/node_modules/component-emitter/component.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-websocket/node_modules/socket.io-parser/node_modules/component-emitter/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-websocket/node_modules/socket.io-parser/node_modules/component-emitter/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-websocket/node_modules/socket.io-parser/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-websocket/node_modules/ws/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-websocket/node_modules/ws/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-websocket/node_modules/ws/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-websocket/node_modules/ws/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-websocket/node_modules/ws/SECURITY.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-websocket/node_modules/ws/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-websocket/node_modules/ws/lib/BufferPool.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-websocket/node_modules/ws/lib/BufferUtil.fallback.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-websocket/node_modules/ws/lib/BufferUtil.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-websocket/node_modules/ws/lib/ErrorCodes.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-websocket/node_modules/ws/lib/Extensions.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-websocket/node_modules/ws/lib/PerMessageDeflate.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-websocket/node_modules/ws/lib/Receiver.hixie.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-websocket/node_modules/ws/lib/Receiver.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-websocket/node_modules/ws/lib/Sender.hixie.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-websocket/node_modules/ws/lib/Sender.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-websocket/node_modules/ws/lib/Validation.fallback.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-websocket/node_modules/ws/lib/Validation.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-websocket/node_modules/ws/lib/WebSocket.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-websocket/node_modules/ws/lib/WebSocketServer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-websocket/node_modules/ws/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-websocket/node_modules/xmlhttprequest-ssl/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-websocket/node_modules/xmlhttprequest-ssl/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-websocket/node_modules/xmlhttprequest-ssl/autotest.watchr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-websocket/node_modules/xmlhttprequest-ssl/example/demo.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-websocket/node_modules/xmlhttprequest-ssl/lib/XMLHttpRequest.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-websocket/node_modules/xmlhttprequest-ssl/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-websocket/node_modules/xmlhttprequest-ssl/tests/test-constants.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-websocket/node_modules/xmlhttprequest-ssl/tests/test-events.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-websocket/node_modules/xmlhttprequest-ssl/tests/test-exceptions.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-websocket/node_modules/xmlhttprequest-ssl/tests/test-headers.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-websocket/node_modules/xmlhttprequest-ssl/tests/test-redirect-302.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-websocket/node_modules/xmlhttprequest-ssl/tests/test-redirect-303.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-websocket/node_modules/xmlhttprequest-ssl/tests/test-redirect-307.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-websocket/node_modules/xmlhttprequest-ssl/tests/test-request-methods.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-websocket/node_modules/xmlhttprequest-ssl/tests/test-request-protocols.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-websocket/node_modules/xmlhttprequest-ssl/tests/testdata.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-websocket/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-websocket/src/index.js" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="555" />
+    <option name="y" value="128" />
+    <option name="width" value="1291" />
+    <option name="height" value="850" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="-" type="b2602c69:ProjectViewProjectNode" />
+              <item name="-" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7e13e5f8-e66e-49d4-948e-7488a9affa45" name="Default Changelist" comment="" />
+      <created>1562843966264</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1562843966264</updated>
+      <workItem from="1562843969900" duration="12000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="12000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="555" y="128" width="1291" height="850" extended-state="0" />
+    <layout>
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24939074" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Python Console" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="SciView" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+</project>

@@ -8,6 +8,7 @@ App.mpType = 'app'
 import iconfont from './static/iconfont/iconfont.css'
 
 import jsencrypt from './static/js/jsencrypt.js'
+import RSAUtils from './static/js/security.js'
 
 // import {uniBadge} from './components/uni-ui/uni-badge/uni-badge.vue'
 
@@ -19,7 +20,6 @@ Vue.use(new VueSocketio({                                 
     debug: true,
     connection: 'ws://127.0.0.1:5000',
   }))
-
 const app = new Vue({
     ...App
 })

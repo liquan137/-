@@ -47,13 +47,18 @@ export default {
 		return {
 			user:'',
 			pwd:'',
+			key:'',
 		}
 	},
 	created(){
 		
 	},
 	onLoad() {
-		this.$socket.emit('message', '123456')
+		this.$socket.emit('key', '');
+		this.sockets.subscribe('key', (data) => {
+			console.log(data)
+			this.key = data
+		});
 		this.sockets.subscribe('message', (data) => {
 			console.log(data)
 		});
@@ -66,24 +71,18 @@ export default {
 			this.pwd = e.detail.value
 		},
 		login(){
-			this.$socket.emit('message', this.pwd)
+			console.log(RSAUtils)
 			if(this.user == '' || this.pwd == ''){
 				return console.log('账号密码不能为空')
 			}
 			let that = this
 			let encryptor = new JSEncrypt() // 新建JSEncrypt对象
 			
-			let publicKey = `-----BEGIN PUBLIC KEY-----
-			MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCwIVXBEJQa+rSulYub+DhCijvN
-			SbzZltSG7T7q2uQrKEzxJ17QZ5cphLN0uwke11kkXxgAPV0kGEwLvRUocJ8c2Mjz
-			bq912K7FiKxKZwVCbgsFqtNk9dzRxBFlQ2yU1vEOufWQpl8p1oC6Yr7opzDaqM6E
-			SCmgaRk+VWdofD++dwIDAQAB
-			-----END PUBLIC KEY-----`  //把之前生成的贴进来，实际开发过程中，可以是后台传过来的
+			let publicKey = this.key
 			
 			encryptor.setPublicKey(publicKey) // 设置公钥
-			
-			let rsaPassWord = encryptor.encrypt(that.pwd) // 对需要加密的数据进行加密
-			// console.log(rsaPassWord)
+			var rsaPwd = encryptor.encrypt(that.pwd) // 对需要加密的数据进行加密
+			this.$socket.emit('login', {pwd:rsaPwd,user:this.user})
 		}
 	}
 }
