@@ -21,33 +21,22 @@
 			</view>
 			
 		</view>
+		<HMmessages ref="HMmessages" @complete="HMmessages = $refs.HMmessages" @clickMessage="clickMessage"></HMmessages>
 	</view>
 </template>
 
 <script>
 import Vue from 'vue'
-var vm = new Vue({
-  sockets:{ //将（socket.on）绑定事件放在sockets中
-    connect: function(){
-      console.log('socket connected')
-    },
-    message: function(val){
-      console.log('this method was fired by the socket server. '+val)
-    }
-  },
-  methods: {
-    clickButton: function(val){
-        // $socket is socket.io-client instance
-        this.$socket.emit('emit_method', val);
-    }
-  }
-})
+import HMmessages from "@/components/HM-messages/HM-messages.vue"
 export default {
+	components: {HMmessages},
 	data() {
 		return {
 			user:'',
 			pwd:'',
 			key:'',
+			message:'',
+			middle:false
 		}
 	},
 	created(){
@@ -56,11 +45,15 @@ export default {
 	onLoad() {
 		this.$socket.emit('key', '');
 		this.sockets.subscribe('key', (data) => {
-			console.log(data)
 			this.key = data
 		});
 		this.sockets.subscribe('message', (data) => {
+			this.msg(data)
+		});
+		this.sockets.subscribe('msg', (data) => {
 			console.log(data)
+			data = JSON.parse(data)
+			this.msg(data.msg,data.type)
 		});
 	},
 	methods: {
@@ -71,20 +64,70 @@ export default {
 			this.pwd = e.detail.value
 		},
 		login(){
-			console.log(RSAUtils)
 			if(this.user == '' || this.pwd == ''){
-				return console.log('账号密码不能为空')
+				return this.msg('账号密码不能为空','error')
 			}
 			let that = this
 			let encryptor = new JSEncrypt() // 新建JSEncrypt对象
-			
 			let publicKey = this.key
 			
 			encryptor.setPublicKey(publicKey) // 设置公钥
 			var rsaPwd = encryptor.encrypt(that.pwd) // 对需要加密的数据进行加密
+			// var rsaPwd = this.$rsaCrypto(publicKey,that.pwd)
 			this.$socket.emit('login', {pwd:rsaPwd,user:this.user})
 		},
-		
+		msg(data,type){
+			switch(type){
+				case 'remind':
+					this.HMmessages.show(data,{data:{test:'test'}});
+					break;
+				case 'error':
+					this.HMmessages.show(data,{icon:type});
+					break;
+				case 'danger': 
+					this.HMmessages.show(data,{icon:type});
+					break;
+				case 'success':
+					this.HMmessages.show(data,{icon:type});
+					break;
+				case 'disable':
+					this.HMmessages.show(data,{icon:type});
+					break;
+				case 'help':
+					this.HMmessages.show(data,{icon:type});
+					break;
+				case 'fontColor':
+					this.HMmessages.show(data,{icon:'success',fontColor:"#ff0000"});
+					break;
+				case 'iconColor':
+					this.HMmessages.show(data,{icon:'success',iconColor:"#7c2491"});
+					break;
+				case 'background':
+					this.HMmessages.show(data,{icon:'success',background:"rgba(255,255,225,.8)"});
+					break;
+				case 'closeButtonColor':
+					this.HMmessages.show(data,{icon:'success',closeButton:true,closeButtonColor:"#3388ff",duration:0});
+					break;  
+				case 'noIcon':
+					this.HMmessages.show(data,{icon:'none'});
+					break;  
+				case 'closeButton':
+					this.HMmessages.show(data,{icon:'success',closeButton:true,duration:0});
+					break;
+				case 'forever':
+					this.HMmessages.show(data,{icon:'success',duration:0});
+					break;
+				case 'close':
+					this.HMmessages.close();
+					break;
+				case 'center':
+					this.HMmessages.show(data,{icon:'none',textAlign:'center'});
+					break;
+			}
+		},
+		clickMessage(){
+			this.HMmessages.close() 
+		}
 	}
 }
 </script>
