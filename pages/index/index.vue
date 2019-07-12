@@ -83,7 +83,8 @@ export default {
 			encryptor.setPublicKey(publicKey) // 设置公钥
 			var rsaPwd = encryptor.encrypt(that.pwd) // 对需要加密的数据进行加密
 			this.$socket.emit('login', {pwd:rsaPwd,user:this.user})
-		}
+		},
+		
 	}
 }
 </script>
