@@ -7,11 +7,13 @@ App.mpType = 'app'
 
 import iconfont from './static/iconfont/iconfont.css'
 
-import jsencrypt from './static/js/jsencrypt.js'
-
-// import {uniBadge} from './components/uni-ui/uni-badge/uni-badge.vue'
-
+import jsencrypt from 'jsencrypt'
+// 
+// // import {uniBadge} from './components/uni-ui/uni-badge/uni-badge.vue'
+// // Vue.prototype.$security = request('./static/js/security.js')
 import VueSocketio from 'vue-socket.io';
+// // import security from 
+Vue.prototype.$crypto = require('crypto-js')
 
 Vue.use(new VueSocketio({                                 
     connection: 'ws://127.0.0.1:5000',

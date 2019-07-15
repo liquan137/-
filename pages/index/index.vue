@@ -70,9 +70,9 @@ export default {
 			let that = this
 			let encryptor = new JSEncrypt() // 新建JSEncrypt对象
 			let publicKey = this.key
-			
+			console.log(that.$crypto.MD5(that.pwd).toString())
 			encryptor.setPublicKey(publicKey) // 设置公钥
-			var rsaPwd = encryptor.encrypt(that.pwd) // 对需要加密的数据进行加密
+			var rsaPwd = encryptor.encrypt(that.$crypto.MD5(that.pwd).toString()) // 对需要加密的数据进行加密
 			// var rsaPwd = this.$rsaCrypto(publicKey,that.pwd)
 			this.$socket.emit('login', {pwd:rsaPwd,user:this.user})
 		},
@@ -134,7 +134,7 @@ export default {
 
 <style>
 .login-box{
-	padding-top: 100px;
+	padding-top: 10px;
 	width: 100%;
 }
 .login-box .logo{
