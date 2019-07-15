@@ -4,7 +4,6 @@ import Vue from 'vue'
 import App from './App'
 import router from './router'
 import iconfont from './assets/iconfont/iconfont.css'
-import jsencrypt from 'jsencrypt'
 
 import VueSocketio from 'vue-socket.io'
 import Vant from 'vant'
@@ -14,7 +13,7 @@ Vue.use(iconfont)
 Vue.use(Vant)
 Vue.prototype.$crypto = require('crypto-js')
 Vue.config.productionTip = false
-
+Vue.prototype.$jsencrypt = require('jsencrypt')
 Vue.use(new VueSocketio({
   connection: 'ws://127.0.0.1:5000'
 }))

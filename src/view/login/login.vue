@@ -15,7 +15,7 @@
         <div class="form-item">
           <label class="form-item-label" for=""><i class="iconfont icon-password"></i></label>
           <div class="form-item-input">
-            <van-field border v-model="pwd" placeholder="请输入密码"/>
+            <van-field type="password" border v-model="pwd" placeholder="请输入密码"/>
           </div>
           <div style="clear: both;"></div>
         </div>
@@ -59,13 +59,14 @@ export default {
       if (this.user === '' || this.pwd === '') {
         return this.$toast('账号密码不能为空')
       }
+
       let that = this
       let encryptor = new JSEncrypt() // 新建JSEncrypt对象
       let publicKey = this.key
+      console.log(this.key)
       console.log(that.$crypto.MD5(that.pwd).toString())
       encryptor.setPublicKey(publicKey) // 设置公钥
       var rsaPwd = encryptor.encrypt(that.$crypto.MD5(that.pwd).toString()) // 对需要加密的数据进行加密
-      // var rsaPwd = this.$rsaCrypto(publicKey,that.pwd)
       this.$socket.emit('login', {pwd: rsaPwd, user: this.user})
     }
   }
