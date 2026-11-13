@@ -1,0 +1,52 @@
+{
+  "name": "iot-uniapp",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "serve": "npm run dev:h5",
+    "dev:h5": "cross-env NODE_ENV=development UNI_PLATFORM=h5 UNI_INPUT_DIR=./ vue-cli-service uni-serve",
+    "build:h5": "cross-env NODE_ENV=production UNI_PLATFORM=h5 UNI_INPUT_DIR=./ vue-cli-service uni-build"
+  },
+  "dependencies": {
+    "@dcloudio/uni-app": "2.0.2-3080720230703001",
+    "@dcloudio/uni-app-plus": "2.0.2-3080720230703001",
+    "@dcloudio/uni-h5": "2.0.2-3080720230703001",
+    "@dcloudio/uni-i18n": "2.0.2-3080720230703001",
+    "@dcloudio/uni-mp-vue": "2.0.2-3080720230703001",
+    "core-js": "^3.8.3",
+    "crypto-js": "3.1.9-1",
+    "flyio": "^0.6.14",
+    "jsencrypt": "3.0.0-rc.1",
+    "vue": "2.6.14",
+    "vue-socket.io": "3.0.10",
+    "vuex": "^3.2.0"
+  },
+  "devDependencies": {
+    "@dcloudio/uni-cli-i18n": "2.0.2-3080720230703001",
+    "@dcloudio/uni-cli-shared": "2.0.2-3080720230703001",
+    "@dcloudio/uni-helper-json": "*",
+    "@dcloudio/uni-migration": "2.0.2-3080720230703001",
+    "@dcloudio/uni-template-compiler": "2.0.2-3080720230703001",
+    "@dcloudio/vue-cli-plugin-hbuilderx": "2.0.2-3080720230703001",
+    "@dcloudio/vue-cli-plugin-uni": "2.0.2-3080720230703001",
+    "@dcloudio/vue-cli-plugin-uni-optimize": "2.0.2-3080720230703001",
+    "@dcloudio/webpack-uni-mp-loader": "2.0.2-3080720230703001",
+    "@dcloudio/webpack-uni-pages-loader": "2.0.2-3080720230703001",
+    "@vue/cli-plugin-babel": "~5.0.8",
+    "@vue/cli-service": "~5.0.8",
+    "babel-plugin-import": "^1.13.8",
+    "cross-env": "^7.0.3",
+    "postcss-comment": "^2.0.0",
+    "sass": "^1.77.8",
+    "sass-loader": "^10.5.2",
+    "socket.io": "2.4.1",
+    "vue-template-compiler": "2.6.14"
+  },
+  "browserslist": [
+    "Android >= 4.4",
+    "ios >= 9"
+  ],
+  "overrides": {
+    "webpack": "5.106.2"
+  }
+}
